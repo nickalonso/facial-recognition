@@ -11,7 +11,7 @@ ap.add_argument("-o", "--output", required=True,
 	help="path to output directory of images")
 args = vars(ap.parse_args())
 
-API_KEY = "07239975c3034e34ba0c5990182c7cdc"
+API_KEY = "Your key goes here"
 MAX_RESULTS = 250
 GROUP_SIZE = 50
 URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
